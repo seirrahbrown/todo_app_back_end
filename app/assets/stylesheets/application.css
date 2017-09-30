@@ -13,3 +13,88 @@
  *= require_tree .
  *= require_self
  */
+html{
+
+    font-family: sans-serif;
+
+}
+
+
+
+li{
+
+    padding:5px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+li:hover{
+
+    background-color:lightblue;
+
+}
+
+
+
+.pomodoro-estimate{
+
+    color: red;
+
+    border:1px solid black;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    background-color:pink;
+
+    padding: 1px 1px 1px 1px;
+
+    border-radius: 1500px;
+
+}
+
+
+
+#add-new-todo-button {
+
+    font-size: 20px;
+
+    color:#FFF;
+
+    outline:none ;
+
+     border-style:none;
+
+     padding:10px;
+
+     Border-radius: 3px;
+
+     box-shadow: 2px 2px 1px pink;
+
+     display:block;
+
+     background-color: purple;
+
+     margin-top:10px;
+
+}
+
+
+
+#add-new-todo-button:active{
+
+    box-shadow:1px 1px 1px pink;
+
+}
+
+
+
+img{
+
+    display: block;
+
+}
