@@ -1,8 +1,7 @@
-<h3>Todo#<%=params[:id]%></h3>
-<input type="checkbox"/>
+<h3>Todo#<%= params[:id ]%></h3>
 
-  <h1><%=@todo_description%></h1>
-  <span class= "pomodoro-estimate" large-pomodoro-estimate"><%=@todo_pomodoro_estimate%>pomodoros</span>
+  <h1><%= @todo.description %></h1>
+  <span class= "pomodoro-estimate" large-pomodoro-estimate"><%= @todo.pomodoro_estimate %>pomodoros</span>
    <a href="#">Edit</a>
 
     <a href="#">Delete</a>
